@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haseenah’s Haven</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #FADADD;
+      color: #5E5E5E;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #D6A7A7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #BFA5A0;
+    }
+    .services-list ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services-list li {
+      margin-bottom: 10px;
+    }
+    .booking iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea, button {
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #D6A7A7;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Haseenah’s Haven</h1>
+    <p>Elegant. Calming. You.</p>
+  </header>
+
+  <section class="services-list">
+    <h2>Services</h2>
+    <h3>Facial Treatments</h3>
+    <ul>
+      <li>Tulasara Facial (30 mins) - $30</li>
+      <li>Tulasara Facial (60 mins) - $40</li>
+      <li>Tulasara Facial (90 mins) - $50</li>
+      <li>Perfecting Plant Peel (add-on) - $15</li>
+      <li>Dual Exfoliation (60 mins) - $55</li>
+      <li>Dual Exfoliation Peel (90 mins) - $65</li>
+    </ul>
+    <h3>Body Treatments</h3>
+    <ul>
+      <li>Aveda Back Treatment - $40</li>
+      <li>Aveda Aroma Body Polish Treatment - $55</li>
+    </ul>
+    <h3>Makeup</h3>
+    <ul>
+      <li>Lash/Brow Tint - $12 | Both $20</li>
+      <li>Makeup Application - $20</li>
+    </ul>
+    <h3>Wax Hair Removal</h3>
+    <ul>
+      <li>Facial Waxing (brow, chin, cheek, or lip) - $13</li>
+      <li>Underarm - $23</li>
+      <li>Half Arm - $20</li>
+      <li>Full Arm - $30</li>
+      <li>Back or Chest - $30</li>
+      <li>Half Leg - $25</li>
+      <li>Full Leg - $45</li>
+      <li>Bikini - $30</li>
+    </ul>
+  </section>
+
+  <section class="booking">
+    <h2>Book an Appointment</h2>
+    <p><strong>Hours:</strong> Thursday 11AM–7PM | Friday & Saturday 7PM–9PM</p>
+    <p><strong>Phone:</strong> 804.386.3297</p>
+    <p><strong>Location:</strong> Sent on day of appointment</p>
+    <iframe src="https://calendly.com/your-calendly-link" title="Book Now"></iframe>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Form</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Haseenah’s Haven. All rights reserved.</p>
+  </footer>
+</body>
+</html>
